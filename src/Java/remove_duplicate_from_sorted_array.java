@@ -1,3 +1,4 @@
+
 class RemoveDuplicates {
     public int removeDuplicates(int[] nums) {
         int index=0;
