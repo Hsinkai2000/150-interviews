@@ -3,7 +3,7 @@ class Solution:
     Class representing a solution for checking if a string is a subsequence of another string.
     """
 
-    def checkSubsequence(self, s:str, t:str) -> bool:
+    def checkSubsequence(self, s: str, t: str) -> bool:
         """
         Checks if string s is a subsequence of string t.
 
@@ -19,7 +19,7 @@ class Solution:
                 if len(s) == 1:
                     return True
                 else:
-                    s=s[1:]
+                    s = s[1:]
             elif j == len(t)-1:
                 return False
 
@@ -35,12 +35,12 @@ class Solution:
             bool: True if s is a subsequence of t, False otherwise.
         """
         if len(s) > 0:
-            result = self.checkSubsequence(s,t)        
+            result = self.checkSubsequence(s, t)
             return result
         return True
 
-        
+
 s = Solution()
-print(s.isSubsequence("ab","baab"))
-print(s.isSubsequence("abc","ahbgdc"))
-print(s.isSubsequence("axc","ahbgdc"))
+print(s.isSubsequence("ab", "baab"))
+print(s.isSubsequence("abc", "ahbgdc"))
+print(s.isSubsequence("axc", "ahbgdc"))
