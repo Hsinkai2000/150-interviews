@@ -3,6 +3,17 @@ from collections import Counter
 
 class Solution:
     def canConstruct(self, ransomNote: str, magazine: str) -> bool:
+        """
+        Determines whether it is possible to construct the ransom note from the given magazine.
+
+        Args:
+            ransomNote (str): The ransom note string.
+            magazine (str): The magazine string.
+
+        Returns:
+            bool: True if the ransom note can be constructed from the magazine, False otherwise.
+        """
+
         # ransomDict = {}
         # magazineDict = {}
         # for letter in ransomNote:
