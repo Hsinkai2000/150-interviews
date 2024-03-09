@@ -2,6 +2,18 @@ from collections import Counter
 
 class Solution:
     def longestConsecutive(self, nums: list[int]) -> int:
+
+        """
+        Finds the length of the longest consecutive subsequence in the given list of integers.
+
+        Args:
+            nums (list[int]): The list of integers.
+
+        Returns:
+            int: The length of the longest consecutive subsequence.
+
+        """
+
         # if not nums:
         #     return 0
         # numsCounter = Counter(nums)
